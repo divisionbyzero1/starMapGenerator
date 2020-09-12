@@ -1,0 +1,211 @@
+Hex	Name	UWP	Bases	Remarks	Zone	PBG	Allegiance	Stars	{Ix}	{Ex}	{Cx}	Nobility	W	
+1401	1-CassIR-D0.6	X2A0000-0		Sa Ba De Lo Lt NI 	 	616	None	D0 VII 	{ -3 }	(A46+2)	[1716]	-	9	
+2401	1-HiParc-M1.3	X7A4000-0		Ba Fl Lo Lt NI 	 	713	None	M1 V 	{ -3 }	(A46+2)	[1716]	-	7	
+2601	2-CassIR-M0.4	X0A0000-0		Sa Ba De Lo Lt NI 	 	914	None	M0 V M1 V 	{ -3 }	(A46+2)	[1716]	-	6	
+2102	1-CassIR-M5.2	X8A3000-0		Ba Fl Lo Lt NI 	 	802	None	M5 V 	{ -3 }	(A46+2)	[1716]	-	5	
+3002	1-Kep-M7.3	X3A0000-0		Ba De Lo Lt NI 	 	313	None	M7 V 	{ -3 }	(A46+2)	[1716]	-	5	
+0503	1-Kep-M3.2	D4A0530-8	S	De Lt NI 	 	812	None	M3 V 	{ -3 }	(A46+2)	[1716]	-	6	
+3004	1-Kep-K2.3	D5A0651-8	S	De NI 	 	713	None	K2 V 	{ -3 }	(A46+2)	[1716]	-	7	
+2405	2-HiParc-K8.2	X3A0000-0		Sa Ba De Lo Lt NI 	 	112	None	K8 V M8 V 	{ -3 }	(A46+2)	[1716]	-	5	
+2605	2-Kep-F7.3	X4A0000-0		Ba De Lo Lt NI 	 	523	None	F7 V M7 V 	{ -3 }	(A46+2)	[1716]	-	8	
+2506	3-CassIR-K8.1	X4A0000-0		Ba De Lo Lt NI 	 	631	None	K8 V M1 V M3 V 	{ -3 }	(A46+2)	[1716]	-	7	
+3006	3-ExCen-G2.5	B8A7364-B		Fl Lo NI 	 	155	None	G2 III M8 V K0 V 	{ +1 }	(A46+2)	[1716]	-	19	
+2907	1-ExCen-M9.1	XBB8000-0		Ba Fl Lo Lt NI 	 	911	None	M9 V 	{ -3 }	(A46+2)	[1716]	-	5	
+3107	1-CassIR-D0.3	D6A5434-8		Fl NI 	 	313	None	D0 VII 	{ -3 }	(A46+2)	[1716]	-	7	
+1008	1-ExCen-M7.3	X4A0000-0		Sa Ba De Lo Lt NI 	 	813	None	M7 V 	{ -3 }	(A46+2)	[1716]	-	6	
+1408	1-Kep-A6.1	C771567-7	S	NI 	 	711	None	A6 V 	{ -2 }	(A46+2)	[1716]	-	8	
+2508	2-CassIR-G4.2	C5AA9CB-9	S	Sa Fl Hi Wa 	 	422	None	G4 V M2 V 	{ +1 }	(A46+2)	[1716]	-	10	
+2608	1-ExCen-M6.4	X2A0000-0		Ba De Lo Lt NI 	 	114	None	M6 V 	{ -3 }	(A46+2)	[1716]	-	6	
+3008	2-ExCen-G0.3	X778000-0		Ba Lo Lt NI 	 	723	None	G0 V K7 V 	{ -3 }	(A46+2)	[1716]	-	12	
+1609	1-CassIR-F8.2	E7A4724-8		Fl 	 	212	None	F8 V 	{ -2 }	(A46+2)	[1716]	-	8	
+2409	1-Kep-D0.3	E5A0420-8		De NI 	 	923	None	D0 VII 	{ -3 }	(A46+2)	[1716]	-	8	
+0610	2-CassIR-D0.2	X4A0000-0		Ba De Lo Lt NI 	 	442	None	D0 VII D0 VII 	{ -3 }	(A46+2)	[1716]	-	7	
+1210	2-CassIR-G6.1	C4A0697-8		De NI 	 	521	None	G6 V K7 V 	{ -2 }	(A46+2)	[1716]	-	11	
+2510	2-Kep-A3.0	B5A0300-C	NSV	De Ht Lo NI 	A	210	None	A3 V G2 V 	{ +2 }	(A46+2)	[1716]	-	10	
+2910	2-CassIR-M2.2	X5A0000-0		Sa Ba De Lo Lt NI 	 	122	None	M2 V D0 VII 	{ -3 }	(A46+2)	[1716]	-	7	
+0311	1-HiParc-M7.3	X4A0000-0		Sa Ba De Lo Lt NI 	 	313	None	M7 V 	{ -3 }	(A46+2)	[1716]	-	6	
+0511	1-CassIR-M7.2	X4A0000-0		Ba De Lo Lt NI 	 	712	None	M7 V 	{ -3 }	(A46+2)	[1716]	-	5	
+1511	2-ExCen-M2.1	X5A0000-0		Sa Ba De Lo Lt NI 	 	911	None	M2 V D0 VII 	{ -3 }	(A46+2)	[1716]	-	10	
+2811	1-CassIR-A0.1	X5A0000-0		Ba De Lo Lt NI 	 	521	None	A0 V 	{ -3 }	(A46+2)	[1716]	-	9	
+1312	1-HiParc-K5.5	C4A0200-C	S	Sa De Ht Lo NI 	A	715	None	K5 V 	{ +0 }	(A46+2)	[1716]	-	8	
+0113	2-ExCen-K7.1	X2A0000-0		Ba De Lo Lt NI 	 	821	None	K7 V M6 V 	{ -3 }	(A46+2)	[1716]	-	6	
+1113	1-CassIR-M2.3	D8A0778-8	S	Sa De 	 	313	None	M2 V 	{ -2 }	(A46+2)	[1716]	-	7	
+1613	2-CassIR-K7.1	X3A0000-0		Ba De Lo Lt NI 	 	111	None	K7 V M3 V 	{ -3 }	(A46+2)	[1716]	-	7	
+2613	1-Kep-D0.2	C7A69A9-8	S	Fl Hi 	A	422	None	D0 VII 	{ +0 }	(A46+2)	[1716]	-	7	
+0314	1-CassIR-M2.2	D4A0446-8	S	De NI 	 	512	None	M2 V 	{ -3 }	(A46+2)	[1716]	-	6	
+0914	1-Kep-G5.4	E4A0786-9		De 	 	214	None	G5 V 	{ -1 }	(A46+2)	[1716]	-	8	
+1014	1-Kep-K4.3	X5A0000-0		Ba De Lo Lt NI 	 	213	None	K4 V 	{ -3 }	(A46+2)	[1716]	-	7	
+2714	2-CassIR-K0.3	X7A0000-0		Sa Ba De Lo Lt NI 	 	533	None	K0 V M7 V 	{ -3 }	(A46+2)	[1716]	-	8	
+2814	2-Kep-M3.7	X7B0000-0		Ba De Lo Lt NI 	 	437	None	M3 V M5 V 	{ -3 }	(A46+2)	[1716]	-	12	
+3114	1-ExCen-D0.5	X5A0000-0		Ba De Lo Lt NI 	 	915	None	D0 VII 	{ -3 }	(A46+2)	[1716]	-	8	
+0215	2-ExCen-M6.6	X7A8000-0		Ba Fl Lo Lt NI 	 	736	None	M6 V M6 V 	{ -3 }	(A46+2)	[1716]	-	10	
+1015	1-Kep-M8.1	XBB7000-0		Ba Fl Lo Lt NI 	 	611	None	M8 V 	{ -3 }	(A46+2)	[1716]	-	4	
+1215	2-ExCen-G2.5	B8A3766-B	NS	Fl 	 	125	None	G2 V M6 V 	{ +3 }	(A46+2)	[1716]	-	13	
+2315	2-HiParc-M0.1	X0AA000-0		Sa Ba Fl Lo Lt NI Wa 	 	911	None	M0 V M9 V 	{ -3 }	(A46+2)	[1716]	-	5	
+3215	2-ExCen-M4.2	X4A0000-0		Sa Ba De Lo Lt NI 	 	612	None	M4 V D0 VII 	{ -3 }	(A46+2)	[1716]	-	4	
+0516	1-Kep-G5.3	C7A557B-A	S	Fl NI 	A	813	None	G5 V 	{ +0 }	(A46+2)	[1716]	-	8	
+0716	2-HiParc-K1.2	X7A9303-8		Fl Lo Lt NI 	 	112	None	K1 V M6 V 	{ -3 }	(A46+2)	[1716]	-	8	
+0916	1-HiParc-G3.3	A7A3736-D		Fl Ht 	 	913	None	G3 V 	{ +2 }	(A46+2)	[1716]	-	8	
+1016	2-ExCen-G2.4	X5B0000-0		Ba De Lo Lt NI 	 	914	None	G2 V M5 V 	{ -3 }	(A46+2)	[1716]	-	12	
+1216	2-HiParc-M1.7	X2A0000-0		Ba De Lo Lt NI 	 	937	None	M1 V M3 V 	{ -3 }	(A46+2)	[1716]	-	12	
+1416	1-CassIR-M3.4	X0A0000-0		Sa Ba De Lo Lt NI 	 	314	None	M3 V 	{ -3 }	(A46+2)	[1716]	-	7	
+2716	1-HiParc-K7.3	C5A05AA-A		De NI 	A	213	None	K7 V 	{ +0 }	(A46+2)	[1716]	-	7	
+3116	2-Kep-G0.3	X5A0000-0		Sa Ba De Lo Lt NI 	 	303	None	G0 V K2 V 	{ -3 }	(A46+2)	[1716]	-	4	
+3216	2-HiParc-M7.1	X6A4000-0		Ba Fl Lo Lt NI 	 	621	None	M7 V D0 VII 	{ -3 }	(A46+2)	[1716]	-	6	
+0217	2-Kep-K0.3	D6A035A-8		Sa De Lo Lt NI 	 	913	None	K0 V M3 V 	{ -3 }	(A46+2)	[1716]	-	7	
+0417	1-ExCen-K5.2	C4A0696-A		De NI 	 	622	None	K5 V 	{ +0 }	(A46+2)	[1716]	-	7	
+0817	2-CassIR-F1.0	X9A6000-0		Ba Fl Lo Lt NI 	 	900	None	F1 V M9 V 	{ -3 }	(A46+2)	[1716]	-	7	
+1317	2-Kep-D0.5	C4A0359-B		Sa De Lo NI 	 	415	None	D0 VII D0 VII 	{ +0 }	(A46+2)	[1716]	-	10	
+2517	2-ExCen-M3.2	A4A0643-D		De Ht NI 	 	812	None	M3 V M6 V 	{ +1 }	(A46+2)	[1716]	-	5	
+3217	1-HiParc-K5.3	X7A7000-0		Ba Fl Lo Lt NI 	 	413	None	K5 V 	{ -3 }	(A46+2)	[1716]	-	7	
+0118	1-HiParc-M7.2	X2A0000-0		Ba De Lo Lt NI 	 	112	None	M7 V 	{ -3 }	(A46+2)	[1716]	-	5	
+0218	2-CassIR-F8.0	C767432-5	S	Ga Lt NI 	 	700	None	F8 V K0 V 	{ -2 }	(A46+2)	[1716]	-	10	
+0418	1-Kep-K6.4	X2A0000-0		Ba De Lo Lt NI 	 	124	None	K6 V 	{ -3 }	(A46+2)	[1716]	-	7	
+0518	2-CassIR-M3.1	C5A0354-8	SV	De Lo NI 	 	211	None	M3 V M7 V 	{ -2 }	(A46+2)	[1716]	-	6	
+0718	1-HiParc-M7.4	X0A0000-0		Sa Ba De Lo Lt NI 	 	114	None	M7 V 	{ -3 }	(A46+2)	[1716]	-	6	
+1118	2-Kep-M8.2	X2A0000-0		Ba De Lo Lt NI 	 	912	None	M8 V D0 VII 	{ -3 }	(A46+2)	[1716]	-	4	
+1218	1-Kep-M2.2	X6A9000-0		Ba Fl Lo Lt NI 	 	412	None	M2 V 	{ -3 }	(A46+2)	[1716]	-	7	
+1318	1-HiParc-D0.5	C7A4467-9	S	Fl NI 	 	715	None	D0 VII 	{ -1 }	(A46+2)	[1716]	-	8	
+3018	2-Kep-K8.0	A5A0569-F	NSV	De Ht NI 	 	510	None	K8 V D0 VII 	{ +2 }	(A46+2)	[1716]	-	8	
+0119	1-Kep-M8.2	XBB6000-0		Ba Fl Lo Lt NI 	 	212	None	M8 V 	{ -3 }	(A46+2)	[1716]	-	4	
+1019	2-CassIR-K4.2	E5A0699-8		De NI 	 	122	None	K4 V M5 V 	{ -3 }	(A46+2)	[1716]	-	8	
+1119	1-HiParc-F7.2	X5A0000-0		Ba De Lo Lt NI 	 	212	None	F7 V 	{ -3 }	(A46+2)	[1716]	-	8	
+1219	2-CassIR-K0.1	X7B0000-0		Ba De Lo Lt NI 	 	221	None	K0 V M4 V 	{ -3 }	(A46+2)	[1716]	-	5	
+1419	1-HiParc-G1.3	X4A0000-0		Ba De Lo Lt NI 	 	303	None	G1 V 	{ -3 }	(A46+2)	[1716]	-	8	
+3019	2-Kep-M2.0	X2A0000-0		Ba De Lo Lt NI 	 	420	None	M2 V M4 V 	{ -3 }	(A46+2)	[1716]	-	4	
+0220	2-ExCen-G2.1	X3A0000-0		Ba De Lo Lt NI 	 	321	None	G2 V M4 V 	{ -3 }	(A46+2)	[1716]	-	7	
+0320	1-CassIR-K0.5	X6B0000-0		Sa Ba De Lo Lt NI 	 	125	None	K0 V 	{ -3 }	(A46+2)	[1716]	-	8	
+0720	3-HiParc-G2.6	C9A9303-C		Fl Ht Lo NI 	 	746	None	G2 V K5 V M9 V 	{ +0 }	(A46+2)	[1716]	-	17	
+1020	John	X8A5000-0		Ba Fl Lo Lt NI 	 	814	Redd	D0 VII 	{ -3 }	(A46+2)	[1716]	-	7	
+1120	2-CassIR-K3.5	D542657-7	S	NI Po 	 	825	None	K3 V K6 V 	{ -3 }	(A46+2)	[1716]	-	14	
+1520	1-ExCen-G7.4	X4A0000-0		Ba De Lo Lt NI 	 	414	None	G7 V 	{ -3 }	(A46+2)	[1716]	-	8	
+1620	1-CassIR-G6.4	C7A577A-8	S	Fl 	A	514	None	G6 V 	{ -1 }	(A46+2)	[1716]	-	8	
+1820	2-CassIR-M1.4	X3A0000-0		Ba De Lo Lt NI 	 	424	None	M1 V M8 V 	{ -3 }	(A46+2)	[1716]	-	10	
+0121	1-CassIR-M8.3	X3A0000-0		Sa Ba De Lo Lt NI 	 	713	None	M8 V 	{ -3 }	(A46+2)	[1716]	-	5	
+0321	1-Kep-K7.3	X9A5000-0		Ba Fl Lo Lt NI 	 	923	None	K7 V 	{ -3 }	(A46+2)	[1716]	-	7	
+0421	2-HiParc-F4.1	X4A0000-0		Ba De Lo Lt NI 	 	321	None	F4 V D0 VII 	{ -3 }	(A46+2)	[1716]	-	10	
+0521	1-HiParc-F4.2	E4A0266-9		De Lo NI 	 	512	None	F4 V 	{ -2 }	(A46+2)	[1716]	-	8	
+0821	George	B877640-9		Ag NI 	 	123	Redd	G6 V K1 V 	{ +1 }	(A46+2)	[1716]	-	12	
+0921	Ringo	B222666-8	NS	Na NI Po 	 	613	Redd	M7 V 	{ +0 }	(A46+2)	[1716]	-	5	
+1221	Eddie	X6A2000-0		Ba Fl Lo Lt NI 	 	726	Redd	M2 V D0 VII 	{ -3 }	(A46+2)	[1716]	-	13	
+1521	2-HiParc-K9.7	X7B7000-0		Ba Fl Lo Lt NI 	 	227	None	K9 V M5 V 	{ -3 }	(A46+2)	[1716]	-	12	
+0622	2-CassIR-M3.2	X5A0000-0		Sa Ba De Lo Lt NI 	 	122	None	M3 V M7 V 	{ -3 }	(A46+2)	[1716]	-	6	
+0922	Splendiforous	X5A0000-0		Sa Ba De Lo Lt NI 	 	514	Redd	M8 V 	{ -3 }	(A46+2)	[1716]	-	6	
+1022	Frank	X2A0000-0		Ba De Lo Lt NI 	 	233	Redd	M1 V 	{ -3 }	(A46+2)	[1716]	-	7	
+1522	1-CassIR-F9.0	X5A0000-0		Ba De Lo Lt NI 	 	400	None	F9 V 	{ -3 }	(A46+2)	[1716]	-	8	
+2922	2-HiParc-K4.2	X3A0000-0		Ba De Lo Lt NI 	 	842	None	K4 V D0 VII 	{ -3 }	(A46+2)	[1716]	-	9	
+0323	1-Kep-F2.2	X5A0000-0		Ba De Lo Lt NI 	 	622	None	F2 V 	{ -3 }	(A46+2)	[1716]	-	9	
+0423	2-Kep-F7.2	X5A0431-8		De Lt NI 	 	822	None	F7 V D0 VII 	{ -3 }	(A46+2)	[1716]	-	10	
+0723	2-ExCen-G5.1	X3A0000-0		Sa Ba De Lo Lt NI 	 	111	None	G5 V M3 V 	{ -3 }	(A46+2)	[1716]	-	3	
+1223	Franklin	C7677AB-8	SV	Ag Ga 	A	413	Redd	F0 V F5 V 	{ +0 }	(A46+2)	[1716]	-	10	
+1723	Franc	D675620-6	S	Ag Lt NI 	 	142	Redd	K0 V K4 V 	{ -2 }	(A46+2)	[1716]	-	10	
+2523	1-HiParc-K5.3	X8A6000-0		Ba Fl Lo Lt NI 	 	113	None	K5 V 	{ -3 }	(A46+2)	[1716]	-	7	
+0624	3-ExCen-G1.2	X5A0000-0		Ba De Lo Lt NI 	 	932	None	G1 V K0 V K7 V 	{ -3 }	(A46+2)	[1716]	-	7	
+0724	2-ExCen-F4.1	X4A0000-0		Ba De Lo Lt NI 	 	521	None	F4 V K0 V 	{ -3 }	(A46+2)	[1716]	-	6	
+1124	Phrank	X6A0000-0		Sa Ba De Lo Lt NI 	 	623	Redd	G4 V 	{ -3 }	(A46+2)	[1716]	-	9	
+1624	Redd_name	B879957-A		Hi In 	 	611	Redd	K3 V D0 VII 	{ +4 }	(A46+2)	[1716]	-	6	
+1724	Redd_name	E4A0134-8		De Lo NI 	 	321	Redd	M7 V 	{ -3 }	(A46+2)	[1716]	-	5	
+3224	1-CassIR-D0.4	X9A6000-0		Ba Fl Lo Lt NI 	 	424	None	D0 VII 	{ -3 }	(A46+2)	[1716]	-	8	
+0125	2-HiParc-G3.1	X5A0000-0		Ba De Lo Lt NI 	 	821	None	G3 V K1 V 	{ -3 }	(A46+2)	[1716]	-	4	
+0525	1-ExCen-K9.3	X9A6000-0		Ba Fl Lo Lt NI 	 	713	None	K9 V 	{ -3 }	(A46+2)	[1716]	-	7	
+0725	Redd_name	X8B3000-0		Ba Fl Lo Lt NI 	 	422	Redd	K5 V M2 V 	{ -3 }	(A46+2)	[1716]	-	8	
+1325	Redd_name	C5578B9-8	S		 	714	Redd	G4 V K5 V 	{ -1 }	(A46+2)	[1716]	-	12	
+1525	Redd_name	BA92620-8		NI 	 	911	Redd	G9 V 	{ -1 }	(A46+2)	[1716]	-	8	
+2625	2-Kep-A2.2	D4A0335-9	S	De Lo NI 	 	632	None	A2 V M6 V 	{ -2 }	(A46+2)	[1716]	-	14	
+2725	1-Kep-M2.3	X2A0000-0		Ba De Lo Lt NI 	 	223	None	M2 V 	{ -3 }	(A46+2)	[1716]	-	6	
+2925	1-CassIR-K8.3	X4A0000-0		Ba De Lo Lt NI 	 	813	None	K8 V 	{ -3 }	(A46+2)	[1716]	-	7	
+0126	2-Kep-K3.2	X4A0000-0		Ba De Lo Lt NI 	 	622	None	K3 V M4 V 	{ -3 }	(A46+2)	[1716]	-	7	
+0326	2-ExCen-G6.5	X3A0000-0		Ba De Lo Lt NI 	 	725	None	G6 V M2 V 	{ -3 }	(A46+2)	[1716]	-	14	
+0526	Redd_name	X0AA000-0		Sa Ba Fl Lo Lt NI Wa 	 	113	Redd	M9 V 	{ -3 }	(A46+2)	[1716]	-	6	
+0626	Redd_name	X5A0000-0		Sa Ba De Lo Lt NI 	 	224	Redd	M3 V 	{ -3 }	(A46+2)	[1716]	-	7	
+0726	Redd_name	X5A0000-0		Ba De Lo Lt NI 	 	223	Redd	K1 V 	{ -3 }	(A46+2)	[1716]	-	8	
+0826	Redd_name	X8A0000-0		Ba De Lo Lt NI 	 	433	Redd	M6 V D0 VII 	{ -3 }	(A46+2)	[1716]	-	7	
+1126	Redd_name	X3A0000-0		Ba De Lo Lt NI 	 	412	Redd	M2 V 	{ -3 }	(A46+2)	[1716]	-	6	
+1326	Redd_name	C755623-6		Ag Ga Lt NI 	 	622	Redd	M2 V 	{ -1 }	(A46+2)	[1716]	-	6	
+1426	Redd_name	D4A0302-8		De Lo NI 	 	236	Redd	F8 V M5 V M9 V 	{ -3 }	(A46+2)	[1716]	-	18	
+1626	Redd_name	X7A7000-0		Ba Fl Lo Lt NI 	 	613	Redd	K4 V 	{ -3 }	(A46+2)	[1716]	-	7	
+1726	Redd_name	X8B7000-0		Ba Fl Lo Lt NI 	 	211	Redd	K1 V 	{ -3 }	(A46+2)	[1716]	-	7	
+2626	1-CassIR-M0.3	X7B6000-0		Ba Fl Lo Lt NI 	 	413	None	M0 V 	{ -3 }	(A46+2)	[1716]	-	7	
+2726	2-HiParc-M1.5	E4A0324-A		De Lo NI 	 	825	None	M1 V M9 V 	{ -1 }	(A46+2)	[1716]	-	12	
+2926	1-ExCen-M0.3	X7B0000-0		Sa Ba De Lo Lt NI 	 	213	None	M0 V 	{ -3 }	(A46+2)	[1716]	-	8	
+3126	2-Kep-F2.2	X6A0000-0		Sa Ba De Lo Lt NI 	 	422	None	F2 V M8 V 	{ -3 }	(A46+2)	[1716]	-	5	
+0527	Redd_name	D542689-6	S	Lt NI Po 	 	812	Redd	F1 V M5 V 	{ -3 }	(A46+2)	[1716]	-	9	
+0627	Redd_name	C6A069A-D	S	Sa De NI 	 	744	Redd	G5 V M6 V 	{ -2 }	(A46+2)	[1716]	-	12	
+1127	Redd_name	D847888-8	S		 	845	Redd	G3 V M0 V M6 V 	{ -2 }	(A46+2)	[1716]	-	16	
+1327	Redd_name	X2A0000-0		Sa Ba De Lo Lt NI 	 	246	Redd	K6 V M2 V 	{ -3 }	(A46+2)	[1716]	-	13	
+1727	Redd_name	X0AA000-0		Sa Ba Fl Lo Lt NI Wa 	 	623	Redd	M7 V D0 VII 	{ -3 }	(A46+2)	[1716]	-	7	
+2427	1-CassIR-G6.3	X6A0000-0		Ba De Lo Lt NI 	 	713	None	G6 V 	{ -3 }	(A46+2)	[1716]	-	8	
+2827	1-ExCen-M4.4	X4A0000-0		Sa Ba De Lo Lt NI 	 	424	None	M4 V 	{ -3 }	(A46+2)	[1716]	-	7	
+3227	1-Kep-M7.4	X5A0000-0		Sa Ba De Lo Lt NI 	 	914	None	M7 V 	{ -3 }	(A46+2)	[1716]	-	6	
+0328	1-Kep-D0.4	X4A0000-0		Ba De Lo Lt NI 	 	514	None	D0 VII 	{ -3 }	(A46+2)	[1716]	-	8	
+0628	Redd_name	X2A0000-0		Ba De Lo Lt NI 	 	512	Redd	F6 V 	{ -3 }	(A46+2)	[1716]	-	8	
+0728	Redd_name	D422656-9		Na NI Po 	 	730	Redd	F8 V D0 VII 	{ -2 }	(A46+2)	[1716]	-	11	
+0828	Redd_name	X2A0000-0		Ba De Lo Lt NI 	 	831	Redd	A9 V K6 V M5 V 	{ -3 }	(A46+2)	[1716]	-	5	
+1028	Redd_name	X9B9000-0		Ba Fl Lo Lt NI 	 	947	Redd	K5 V K8 V 	{ -3 }	(A46+2)	[1716]	-	14	
+1128	Redd_name	X4A0000-0		Ba De Lo Lt NI 	 	213	Redd	G0 V 	{ -3 }	(A46+2)	[1716]	-	8	
+1228	Redd_name	X0A0000-0		Sa Ba De Lo Lt NI 	 	914	Redd	M3 V M9 V 	{ -3 }	(A46+2)	[1716]	-	7	
+1628	Redd_name	B222669-7		Na NI Po 	 	132	Redd	A3 V M3 V 	{ -1 }	(A46+2)	[1716]	-	9	
+3128	1-HiParc-M6.2	XBB6000-0		Ba Fl Lo Lt NI 	 	412	None	M6 V 	{ -3 }	(A46+2)	[1716]	-	5	
+0329	2-Kep-A0.1	C7A0645-8	SV	Sa De Lt NI 	 	301	None	A0 V K6 V 	{ -2 }	(A46+2)	[1716]	-	6	
+0429	Redd_name	X6A1000-0		Ba Fl Lo Lt NI 	 	310	Redd	K9 V M9 V 	{ -3 }	(A46+2)	[1716]	-	6	
+0729	Redd_name	X4A0000-0		Ba De Lo Lt NI 	 	622	Redd	M2 V M6 V 	{ -3 }	(A46+2)	[1716]	-	6	
+0929	Redd_name	X5A0000-0		Sa Ba De Lo Lt NI 	 	924	Redd	M5 V 	{ -3 }	(A46+2)	[1716]	-	7	
+1229	Redd_name	D222665-7	S	Na NI Po 	 	614	Redd	M5 V 	{ -3 }	(A46+2)	[1716]	-	6	
+1829	Redd_name	D2226B7-7	S	Na NI Po 	 	322	Redd	G6 V 	{ -3 }	(A46+2)	[1716]	-	8	
+2329	2-ExCen-K0.2	X4A0000-0		Sa Ba De Lo Lt NI 	 	912	None	K0 V M6 V 	{ -3 }	(A46+2)	[1716]	-	4	
+3229	2-Kep-G0.4	X6A5000-0		Ba Fl Lo Lt NI 	 	824	None	G0 V M7 V 	{ -3 }	(A46+2)	[1716]	-	13	
+0430	2-CassIR-G2.0	BAA4610-B		Fl NI 	 	330	None	G2 V K1 V 	{ +1 }	(A46+2)	[1716]	-	10	
+0530	Redd_name	B5A0652-D	NSV	Sa De Ht NI 	 	838	Redd	K4 V D0 VII 	{ +2 }	(A46+2)	[1716]	-	15	
+0630	Redd_name	X7A0000-0		Sa Ba De Lo Lt NI 	 	714	Redd	M8 V 	{ -3 }	(A46+2)	[1716]	-	6	
+1130	Redd_name	B3226AB-A	NS	Na NI Po 	A	423	Redd	F0 V M7 V 	{ +2 }	(A46+2)	[1716]	-	12	
+1330	Redd_name	X5A0000-0		Ba De Lo Lt NI 	 	614	Redd	M3 V 	{ -3 }	(A46+2)	[1716]	-	6	
+2930	2-ExCen-G8.2	X3A0000-0		Ba De Lo Lt NI 	 	822	None	G8 V K8 V 	{ -3 }	(A46+2)	[1716]	-	10	
+3130	2-CassIR-M5.6	X3A0000-0		Ba De Lo Lt NI 	 	536	None	M5 V M8 V 	{ -3 }	(A46+2)	[1716]	-	10	
+0231	2-HiParc-G3.1	X2A0000-0		Sa Ba De Lo Lt NI 	 	301	None	G3 V K3 V 	{ -3 }	(A46+2)	[1716]	-	2	
+0831	Redd_name	C7A2857-A	S	Fl 	 	136	Redd	K1 V K9 V 	{ +1 }	(A46+2)	[1716]	-	14	
+0931	Redd_name	X7A4155-8		Fl Lo Lt NI 	 	803	Redd	D0 VII D0 VII 	{ -3 }	(A46+2)	[1716]	-	4	
+1031	Redd_name	E648865-B		Lt 	 	166	Redd	G4 V K5 V M0 V 	{ -2 }	(A46+2)	[1716]	-	17	
+1331	Redd_name	X6B5000-0		Ba Fl Lo Lt NI 	 	113	Redd	K2 V M3 V 	{ -3 }	(A46+2)	[1716]	-	6	
+1431	Redd_name	X4A0000-0		Sa Ba De Lo Lt NI 	 	328	Redd	K9 V M8 V 	{ -3 }	(A46+2)	[1716]	-	13	
+1631	Redd_name	X2A0000-0		Ba De Lo Lt NI 	 	913	Redd	M3 V 	{ -3 }	(A46+2)	[1716]	-	6	
+1931	2-HiParc-K4.7	X7A7000-0		Ba Fl Lo Lt NI 	 	337	None	K4 V M8 V 	{ -3 }	(A46+2)	[1716]	-	11	
+3031	1-Kep-K5.3	X3A0000-0		Ba De Lo Lt NI 	 	523	None	K5 V 	{ -3 }	(A46+2)	[1716]	-	7	
+3131	1-ExCen-D0.4	D7AA365-8	S	Fl Lo Lt NI Wa 	 	124	None	D0 VII 	{ -3 }	(A46+2)	[1716]	-	8	
+0132	1-CassIR-K3.3	X4A0000-0		Ba De Lo Lt NI 	 	413	None	K3 V 	{ -3 }	(A46+2)	[1716]	-	7	
+0332	1-ExCen-D0.5	X6B6000-0		Ba Fl Lo Lt NI 	 	515	None	D0 VII 	{ -3 }	(A46+2)	[1716]	-	8	
+0832	Redd_name	X9A7000-0		Ba Fl Lo Lt NI 	 	123	Redd	K3 V 	{ -3 }	(A46+2)	[1716]	-	8	
+0932	Redd_name	D4A0401-8	S	De NI 	 	613	Redd	M3 V 	{ -3 }	(A46+2)	[1716]	-	6	
+0533	2-HiParc-F8.3	X5A0000-0		Ba De Lo Lt NI 	 	923	None	F8 V G0 V 	{ -3 }	(A46+2)	[1716]	-	14	
+0733	1-ExCen-G9.3	XBB4000-0		Ba Fl Lo Lt NI 	 	513	None	G9 V 	{ -3 }	(A46+2)	[1716]	-	8	
+0833	1-CassIR-M1.3	X7B0000-0		Ba De Lo Lt NI 	 	113	None	M1 V 	{ -3 }	(A46+2)	[1716]	-	7	
+0933	Redd_name	X7B2000-0		Ba Fl Lo Lt NI 	 	911	Redd	M3 V 	{ -3 }	(A46+2)	[1716]	-	6	
+1333	Redd_name	E4226A5-8		Na NI Po 	 	742	Redd	G1 V G5 V 	{ -3 }	(A46+2)	[1716]	-	12	
+1733	2-CassIR-G2.5	D9AA321-8	S	Fl Lo NI Wa 	 	935	None	G2 V D0 VII 	{ -3 }	(A46+2)	[1716]	-	12	
+1933	2-CassIR-F7.1	X5AA000-0		Sa Ba Fl Lo Lt NI Wa 	 	111	None	F7 V K3 V 	{ -3 }	(A46+2)	[1716]	-	5	
+0534	1-Kep-D0.3	X5A0000-0		Ba De Lo Lt NI 	 	123	None	D0 VII 	{ -3 }	(A46+2)	[1716]	-	7	
+1034	1-HiParc-M3.3	X4A0000-0		Ba De Lo Lt NI 	 	513	None	M3 V 	{ -3 }	(A46+2)	[1716]	-	6	
+1134	Redd_name	X2A0000-0		Ba De Lo Lt NI 	 	910	Redd	M7 V M7 V 	{ -3 }	(A46+2)	[1716]	-	2	
+1334	Redd_name	X7A0000-0		Sa Ba De Lo Lt NI 	 	904	Redd	M5 V M6 V 	{ -3 }	(A46+2)	[1716]	-	6	
+2134	2-HiParc-G2.2	X5A0000-0		Ba De Lo Lt NI 	 	322	None	G2 V G6 V 	{ -3 }	(A46+2)	[1716]	-	13	
+0535	2-CassIR-M2.5	D963377-4	S	Lo Lt NI Po 	 	325	None	M2 V D0 VII 	{ -3 }	(A46+2)	[1716]	-	12	
+0735	1-Kep-M6.3	X5A5000-0		Ba Fl Lo Lt NI 	 	603	None	M6 V 	{ -3 }	(A46+2)	[1716]	-	5	
+1235	1-HiParc-K8.3	X6A0000-0		Ba De Lo Lt NI 	 	413	None	K8 V 	{ -3 }	(A46+2)	[1716]	-	7	
+1735	2-ExCen-M7.5	X6A0000-0		Ba De Lo Lt NI 	 	535	None	M7 V M8 V 	{ -3 }	(A46+2)	[1716]	-	9	
+1835	1-Kep-M9.2	X0A0000-0		Sa Ba De Lo Lt NI 	 	322	None	M9 V 	{ -3 }	(A46+2)	[1716]	-	6	
+0936	1-Kep-D0.2	XAB9000-0		Ba Fl Lo Lt NI 	 	212	None	D0 VII 	{ -3 }	(A46+2)	[1716]	-	7	
+1536	2-HiParc-M4.3	C4A0310-C		De Ht Lo NI 	 	523	None	M4 V M8 V 	{ +0 }	(A46+2)	[1716]	-	7	
+1636	1-Kep-K2.3	E4A0412-8		De Lt NI 	 	713	None	K2 V 	{ -3 }	(A46+2)	[1716]	-	7	
+1936	2-CassIR-F5.5	X2A0000-0		Ba De Lo Lt NI 	 	345	None	F5 V D0 VII 	{ -3 }	(A46+2)	[1716]	-	14	
+2136	1-CassIR-M5.4	X2A0000-0		Ba De Lo Lt NI 	 	114	None	M5 V 	{ -3 }	(A46+2)	[1716]	-	6	
+2736	2-Kep-G2.2	E863468-3		Lt NI Po 	 	522	None	G2 V M2 V 	{ -3 }	(A46+2)	[1716]	-	12	
+2437	3-CassIR-F3.3	E5A0530-8		Sa De Lt NI 	 	113	None	F3 V K0 V D0 VII 	{ -3 }	(A46+2)	[1716]	-	5	
+2138	1-ExCen-D0.5	X7A3000-0		Ba Fl Lo Lt NI 	 	715	None	D0 VII 	{ -3 }	(A46+2)	[1716]	-	8	
+1939	1-ExCen-M1.4	X7A7000-0		Ba Fl Lo Lt NI 	 	914	None	M1 V 	{ -3 }	(A46+2)	[1716]	-	7	
+2139	2-CassIR-K0.2	B5A057B-E	NSV	De Ht NI 	A	122	None	K0 V M8 V 	{ +2 }	(A46+2)	[1716]	-	7	
+1940	2-Kep-K5.3	X9A3000-0		Ba Fl Lo Lt NI 	 	123	None	K5 V M8 V 	{ -3 }	(A46+2)	[1716]	-	7	
+2040	1-HiParc-D0.3	XBB4000-0		Ba Fl Lo Lt NI 	 	713	None	D0 VII 	{ -3 }	(A46+2)	[1716]	-	8	
+2240	1-Kep-G8.3	X6A0000-0		Ba De Lo Lt NI 	 	213	None	G8 V 	{ -3 }	(A46+2)	[1716]	-	8	
+2340	3-Kep-G6.3	X4A0000-0		Ba De Lo Lt NI 	 	923	None	G6 V M3 V M9 V 	{ -3 }	(A46+2)	[1716]	-	9	
+2540	2-Kep-F3.1	X2A0000-0		Ba De Lo Lt NI 	 	221	None	F3 V M0 V 	{ -3 }	(A46+2)	[1716]	-	7	
+1324	Redd_name	D5A0545-E		De NI 	 	121	Redd	G1 V D0 VII 	{ -3 }	(A46+2)	[1716]	-	8	
+1227	Redd_name	D5A0545-9		De NI 	 	121	Redd	G1 V D0 VII 	{ -3 }	(A46+2)	[1716]	-	8	
