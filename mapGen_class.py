@@ -2916,7 +2916,7 @@ class mapProcess():
         '''
         create the system
         '''
-        imgSize = []
+        #imgSize = []
         self.image = self.plt.imread(imageFile)
         self.imgSize.append(self.np.shape(self.image)[0])
         self.imgSize.append(self.np.shape(self.image)[1])
@@ -3769,13 +3769,13 @@ class mapProcess():
         starHex has to be a string
         '''
         print('Attempting deletion of  star at '+starHex)
-        sectorSizeX = 40
-        sectorSizeY = 32
+        #sectorSizeX = 40
+        #sectorSizeY = 32
         
-        thisSector = self.np.zeros((sectorSizeX, sectorSizeY))
+        #thisSector = self.np.zeros((sectorSizeX, sectorSizeY))
         
         sub = [ (self.sectorSets[i][0] == sectorX) and (self.sectorSets[i][1]==sectorY) for i in range(len(self.sectorSets))]
-        linestring = ''
+        #linestring = ''
         if not self.np.any(sub):
             print('sector not found, no output')
             return 0
@@ -3800,11 +3800,18 @@ class mapProcess():
     def evenq_to_cube(self, starHex):
         '''
         converts an evenq xy pair to cube coordinates
+        Modification to handle star hex longer than 4 standard numbers - 
+        this is only used for world coordinates
         '''
         if len(starHex) < 4:
             print('starHex: ', starHex)
-        eq_X = int(starHex[:2])
-        eq_Y = int(starHex[2:])
+            
+        if len(starHex) == 4:
+            eq_X = int(starHex[:2])
+            eq_Y = int(starHex[2:])
+        else:
+            eq_X = int(starHex[:4])
+            eq_Y = int(starHex[4:])
         
         x = eq_X
         z = eq_Y - (eq_X + (eq_X&1))/2
@@ -3832,13 +3839,13 @@ class mapProcess():
         metrics later on
         '''
         print('Inserting system...')
-        sectorSizeX = 40
-        sectorSizeY = 32
+        #sectorSizeX = 40
+        #sectorSizeY = 32
         
-        thisSector = self.np.zeros((sectorSizeX, sectorSizeY))
+        #thisSector = self.np.zeros((sectorSizeX, sectorSizeY))
         
         sub = [ (self.sectorSets[i][0] == sectorX) and (self.sectorSets[i][1]==sectorY) for i in range(len(self.sectorSets))]
-        linestring = ''
+        #linestring = ''
         if not self.np.any(sub):
             print('sector not found, no output')
             return 0
@@ -3882,13 +3889,13 @@ class mapProcess():
         starHex has to be a string
         '''
         print('Inserting system...')
-        sectorSizeX = 40
-        sectorSizeY = 32
+        #sectorSizeX = 40
+        #sectorSizeY = 32
         
-        thisSector = self.np.zeros((sectorSizeX, sectorSizeY))
+        #thisSector = self.np.zeros((sectorSizeX, sectorSizeY))
         
         sub = [ (self.sectorSets[i][0] == sectorX) and (self.sectorSets[i][1]==sectorY) for i in range(len(self.sectorSets))]
-        linestring = ''
+        #linestring = ''
         if not self.np.any(sub):
             print('sector not found, no output')
             return 0
@@ -3910,10 +3917,10 @@ class mapProcess():
         '''
         writes an ascii text file that includes the starMap data for a given sector
         '''
-        sectorSizeX = 40
-        sectorSizeY = 32
+        #sectorSizeX = 40
+        #sectorSizeY = 32
         
-        thisSector = self.np.zeros((sectorSizeX, sectorSizeY))
+        #thisSector = self.np.zeros((sectorSizeX, sectorSizeY))
         
         f = open(filename, 'w')
         entries = ['Hex', \
@@ -3953,8 +3960,8 @@ class mapProcess():
         linestring = linestring + '\n'
         f.write(linestring)
         
-        numX = int(self.imgSize[0]/sectorSizeX)
-        numY = int(self.imgSize[1]/sectorSizeY)
+        #numX = int(self.imgSize[0]/sectorSizeX)
+        #numY = int(self.imgSize[1]/sectorSizeY)
         
         sub = [ (self.sectorSets[i][0] == sectorX) and (self.sectorSets[i][1]==sectorY) for i in range(len(self.sectorSets))]
         linestring = ''
@@ -4080,4 +4087,59 @@ class mapProcess():
                     settingTech = max([newTech, techValue])
                     self.sectorStarData[i][j][1] = thisUWP[:-1] + self.SS.convertEHEX(settingTech)
                     
-                    
+    def multiSectorDistance(self, sect1, starhex1, sect2, starhex2):
+        '''
+        This function calculates distances between stars that cross between
+        sector boundaries.
+        
+        Parameters
+        ----------
+        sect1 : tuple (int, int)
+            Sector of origin in X/Y coordinates
+        starhex1 : string
+            Star system or map coordinate origin in sector 1
+        sect2 : tuple (int, int)
+            Sector of target in X/Y coordinates
+        starhex2 : string
+            Star system or map coordinate in target in sector 2
+
+        Returns
+        -------
+        Distance in parsecs between origin and target
+
+        '''
+        
+        '''
+        This function processes the regional map by creating a world coordinate
+        for each star system.  The starDistance function above calculates the 
+        distance for beyond 1 hex just fine, so it just needs some modified
+        world coordinates to be extended for multi-sector use.
+        '''
+
+        #s1x, s1y = sect1 #unpack sect1 tuple
+        #s2x, s2y = sect2
+
+        inputSet = [[sect1, starhex1], [sect2, starhex2]]
+        
+        newHex = []
+        
+        for i in range(len(inputSet)):
+            sx, sy = inputSet[i][0]
+            s_hex = inputSet[i][1]
+            
+            shx_x = int(s_hex[:2]) #unpack the star hex x coordinate
+            shx_y = int(s_hex[2:]) #unpack the star hex y coordinate
+            
+            #convert sector values to an increment for the star hex
+            addX = sx*32
+            addY = -1*sy*40
+            
+            newCoordX = shx_x + addX
+            newCoordY = shx_y + addY
+            
+            newHex.append( str(newCoordX).zfill(4)+str(newCoordY).zfill(4) )
+            
+            #print(newHex[-1])
+            
+        return self.starDistance( newHex[0], newHex[1] )
+
