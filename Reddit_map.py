@@ -17,7 +17,8 @@ sys.path.append('C:\\Users\\Mike\\Documents\\code\\PythonWork\\TravellerMap\\sta
 import mapGen_class as MGC
 
 
-b = MGC.mapProcess('Reddit_Example.png')
+#b = MGC.mapProcess('Reddit_Example.png')
+b = MGC.mapProcess('Reddit_Example_rgb.png')
 '''
 To make these maps, I utilize GIMP and layers.  The layers are ful 100% white
 and drawn by hand/filled/modified.  There's about 5 layers and then each layer

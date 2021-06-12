@@ -2918,6 +2918,13 @@ class mapProcess():
         '''
         #imgSize = []
         self.image = self.plt.imread(imageFile)
+        
+        '''add error checking to accept rgb images 20210612 - maj'''
+        if len(self.np.shape(self.image)) > 2:
+            self.image = self.np.mean(self.image, axis=2)
+        else:
+            pass
+        
         self.imgSize.append(self.np.shape(self.image)[0])
         self.imgSize.append(self.np.shape(self.image)[1])
 
@@ -3240,6 +3247,202 @@ class mapProcess():
                         pass
         
         return sysList, jumpNumber
+
+    def findSectorIndex(self, sectorX, sectorY):
+        '''
+        Finds the index value of the self.sectorSets list that corresponds to the
+        X,Y values
+        Parameters
+        ----------
+        sectorX : int
+            sector X coordinate
+        sectorY : int
+            sector Y coordinate
+
+        Returns
+        -------
+        sectorIndex (if found)
+
+        '''
+        sub = [ (self.sectorSets[i][0] == sectorX) and (self.sectorSets[i][1]==sectorY) for i in range(len(self.sectorSets))]
+        #linestring = ''
+        if not self.np.any(sub):
+            print('sector not found, no output')
+            return -1
+        else:
+            #print('sector found')
+            pass
+        sectInd = self.np.arange(len(self.sectorSets))[sub][0]
+        return sectInd
+
+    def findMultiSectorJumpGroup(self, \
+                                 sectorX, \
+                                 sectorY, \
+                                 startHex, \
+                                 jump=1, \
+                                 maxJumps=6):
+        '''
+        This function performs a similar function as "findJumpGroup" except
+        it is possible to cross a sector boundary, which wasn't possible in
+        the other function        
+        
+        Parameters
+        ----------
+        sectorX : integer
+            X value of starting sector
+        sectorY : integer
+            Y value of starting sector
+        startHex : string
+            starting hex entry for this jump group
+        jump : integer, optional
+            The type of jump engine for the group. The default is 1.
+        maxJumps : integer, optional
+            The maximum number of jumps that can be made. The default is 6.
+
+        Returns
+        -------
+        sysList, sectorList, jumpNumber
+        '''
+        
+        #sysList is the list of hex values for the jump group
+        #sectorList is the list of sector XY values that correspond to the sysList
+        #jumpNumber provides the number of jumps needed to reach this point.
+        sysList = []
+        sectorList = []
+        jumpNumber = []
+        
+        #find the index for the current sector
+        
+        sectInd = self.findSectorIndex(sectorX, sectorY)
+        if sectInd == -1:
+            return 0, 0, 0
+        else:
+            pass
+        
+        starList = self.sectorSets[sectInd][2]
+        if startHex in starList:
+            sysList.append(startHex)
+            sectorList.append( [sectorX, sectorY] )
+            jumpNumber.append(0)
+        else:
+            print('Start star not found in sector')
+            return 1, 1, 1
+        
+        #instead of repeated tests, expand the search to include only the sectors
+        #that are within jumps*maxJumps parsecs
+        
+        #sysNames = []
+        distSect = [] #mimics the self.sectorSets, but lists distance to all stars
+        #distSys = []
+        initialFilter = []
+        
+        numSect = len(self.sectorSets)
+        print(numSect)
+        
+        MaxRange = int(np.ceil(jump*maxJumps*1.1)) #some buffer is used in case weird things happen
+        print('max range = ', MaxRange)
+        for i in range( numSect ):
+            numSys = len(self.sectorSets[i][2])
+            s1_tup = (sectorX, sectorY)
+            s2_tup = (self.sectorSets[i][0], self.sectorSets[i][1])
+            
+            thisDist = [self.multiSectorDistance(s1_tup, \
+                                                 startHex, \
+                                                 s2_tup, \
+                                                 self.sectorSets[i][2][j]) for j in range(numSys)]
+            distSect.append(thisDist)
+        
+            sub = [entry <= MaxRange for entry in thisDist]
+            initialFilter.append(sub)
+        
+        #now, use the initial filter to chop out sectors from searches
+        sectorFilter = [self.np.any(initialFilter[i]) for i in range( numSect )]
+        sectorSearchList = self.np.arange( numSect )[sectorFilter]
+        
+        systemSearchList = []
+        for i in range( len(sectorSearchList)):
+            thisSysList = self.np.arange( len(initialFilter[ sectorSearchList[i]]) )\
+                        [initialFilter[ sectorSearchList[i]]]
+            systemSearchList.append(thisSysList)
+            
+        #The search sets should now have some sensible limits instead of cycling
+        #through everything.  It will cycle ONLY through sectorSearchList and each systemSearchList
+        print('systemSearch: ', systemSearchList)
+        print('sectorSearch: ', sectorSearchList)
+        
+        for i in range(maxJumps):
+            #loop up to the max number of jumps
+            #search from every star at a given jump number
+            test = [jumpNumber[j]==i for j in range(len(jumpNumber))]
+            print('test value = ', test)
+            checkSysList = []
+            checkSectList = []
+            
+            for j in range(len(test)):
+                if test[j]:
+                    checkSysList.append(sysList[j])
+                    checkSectList.append(sectorList[j])
+            #the following fixes the situation when only one entry is present
+            #because only lists or list-likes can be iterated
+            if type(checkSysList) == str:
+                checkSysList = [checkSysList]
+            else:
+                pass
+            
+            #Now, iterate through the list from the previous jump to find those
+            #that lie within the jump distance specified
+            
+            for j in range( len(checkSysList) ):
+                thisSect_tup = (checkSectList[j][0], checkSectList[j][1])
+                thisSys = checkSysList[j]
+                #have to iterate through the candidate sectors
+                
+                print('sector tuple: ', thisSect_tup)
+                
+                testSect = []
+                testSys = []
+                testDist = []
+                
+                for k in range( len(sectorSearchList) ):
+                    #pass through the filtered sectors
+                    for l in range( len( systemSearchList[k])):
+                        testSect.append( [self.sectorSets[ sectorSearchList[k]][0], \
+                                          self.sectorSets[ sectorSearchList[k]][1]] )
+                        testSys.append( self.sectorSets[ sectorSearchList[k]][2][systemSearchList[k][l]] )
+                        
+                        testDist.append( \
+                                        self.multiSectorDistance(thisSect_tup, thisSys, \
+                                                                 (self.sectorSets[ sectorSearchList[k]][0], \
+                                                                  self.sectorSets[ sectorSearchList[k]][1]), \
+                                                                  self.sectorSets[ sectorSearchList[k]][2][systemSearchList[k][l]]))
+                    
+                #now that all test systems for this star have been found, time to filter them
+                reachable = [testDist[k] <= jump for k in range( len(testDist))]
+                
+                for k in range( len(testDist)):
+                    if reachable[k]:
+                        #it is within the jump distance
+                        if testSys[k] in sysList:
+                            #ok, the test system is already found, but is it
+                            #the same sector
+                            sectInd = self.findSectorIndex(testSect[k][0],testSect[k][1])
+                            #ind = self.sectorSets[sectInd][2].index(testSys[k])
+                            if (testSect[k][0] == self.sectorSets[sectInd][0]) and \
+                                (testSect[k][1] == self.sectorSets[sectInd][1]):
+                                #these tests indicate the found system is identical to one
+                                #already in the list
+                                pass
+                            else:
+                                sysList.append(testSys[k])
+                                sectorList.append(testSect[k])
+                                jumpNumber.append(i+1)
+                        else:
+                            pass
+                    else:
+                        pass
+        
+        
+        return sysList, sectorList, jumpNumber
 
     def filterSystemList(self, \
                        sectorX, \
@@ -3662,10 +3865,10 @@ class mapProcess():
         sectorSizeX = 40
         sectorSizeY = 32
         
-        thisSector = self.np.zeros((sectorSizeX, sectorSizeY))
+        #thisSector = self.np.zeros((sectorSizeX, sectorSizeY))
         
         sub = [ (self.sectorSets[i][0] == sectorX) and (self.sectorSets[i][1]==sectorY) for i in range(len(self.sectorSets))]
-        linestring = ''
+        #linestring = ''
         if not self.np.any(sub):
             print('sector not found, no output')
             return 0
